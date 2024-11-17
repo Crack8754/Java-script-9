@@ -16,8 +16,7 @@ function bubbleSort(array) {
     return array;
 }
 
-let numbers = [64, 34, 25, 12, 22, 11, 90];
+let numbers = [72, 36, 27, 11, 21, 13, 93];
 console.log("Початковий масив:", numbers);
-
 let sortedNumbers = bubbleSort(numbers);
 console.log("Відсортований масив:", sortedNumbers);
